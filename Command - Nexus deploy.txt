@@ -1,0 +1,5 @@
+mvn clean package deploy:deploy-file -DgroupId=maven-simple -DartifactId=maven-simple -Dversion=1.0 -DgeneratePom=false -DpomFile=pom.xml -Dpackaging=jar -DrepositoryId=b7577904f94a492438809b50fdd48cd970472af3 -Durl=http://localhost:8081/repository/maven-releases -Dfile=C:\1Rivet\Practise\Maven\maven-simple\target\maven-simple-0.2-SNAPSHOT.jar
+
+mvn clean package deploy:deploy-file -DgroupId=maven-simple -DartifactId=maven-simple -Dversion=1.0 -DgeneratePom=false -DpomFile=pom.xml -Dpackaging=jar -DrepositoryId=maven-releases -Durl=http://localhost:8081/repository/maven-releases -Dfile=C:\1Rivet\Practise\Maven\maven-simple\target\maven-simple-0.2-SNAPSHOT.jar
+
+mvn clean package deploy:deploy-file -DgroupId=maven-simple -DartifactId=maven-simple -Dversion=1.0 -DgeneratePom=false -DpomFile=pom.xml -Dpackaging=jar -DrepositoryId=maven-releases -Durl=http://localhost:8081/#browse/browse:maven-releases -Dfile=C:\1Rivet\Practise\Maven\maven-simple\target\maven-simple-0.2-SNAPSHOT.jar
